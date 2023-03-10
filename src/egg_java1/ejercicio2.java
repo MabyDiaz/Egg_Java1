@@ -16,12 +16,10 @@ public class ejercicio2 {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
-        String nombre;
-        
+                
         System.out.println("Ingresa tu nombre");
         
-        nombre = input.nextLine();
+        String nombre = input.next();
         
         System.out.println("Hola " + nombre + " ! ");
     }
